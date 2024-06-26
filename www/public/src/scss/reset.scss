@@ -1,0 +1,74 @@
+/* Comprehensive Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1;
+}
+
+/* Block display for HTML5 elements */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Remove default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Remove default styles for paragraphs */
+p {
+    margin-bottom: 1em;
+}
+
+/* Remove default styles for forms */
+input, button, select, textarea {
+    font: inherit;
+}
+
+/* Remove default styles for lists */
+ul, ol {
+    padding-left: 0;
+}
+
+/* Remove default styles for table elements */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default styles for images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for interactive elements */
+button, input, select, textarea {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
